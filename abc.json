@@ -1,0 +1,14 @@
+{
+    "name": "HashX",
+    "version": "1.0",
+    "desc": "hash操作快捷方式",
+    "cover": "",
+    "tag":"hash,history",
+    "author": {
+        "name": "飞长",
+        "email": "veryued@gmail.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
