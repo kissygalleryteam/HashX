@@ -32,15 +32,13 @@
 
     S.use('gallery/HashX/1.0/index', function (S, HashX) {
         var HashX = new HashX();
-
-        E.on('#J_setHash', function(e){
+        E.on('#J_setHash','click', function(e){
             HashX.hash(window.prompt("请输入hash key:"), window.prompt("请输入hash value"));
         });
-
-        E.on('#J_setHash', function(e){
-            HashX.hash(window.prompt("请输入想获取的hash的key:"));
+        E.on('#J_getHash','click', function(e){
+            alert(HashX.hash(window.prompt("请输入想获取的hash的key:")));
         });
-        E.on('#J_setHash', function(e){
+        E.on('#J_delHash','click', function(e){
             HashX.hash(window.prompt("请输入想获取的hash的key:"), null);
         });
     })
